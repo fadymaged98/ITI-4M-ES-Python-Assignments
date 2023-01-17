@@ -18,6 +18,7 @@ def calc():
     global field_txt
     res = str(eval(field_txt))
     field.delete("0","end")
+    field_txt = ""
     field.insert("0",res)
 def clr():
     global field_txt
